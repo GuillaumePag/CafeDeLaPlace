@@ -1,0 +1,118 @@
+body {
+  background-image: url(img/cafe_resto.jpg);
+}
+
+header {
+  color: white;
+  background-color: rgba(85, 82, 82, 0.342);
+  padding: 0.5%;
+  box-shadow: rgb(22, 22, 22) 3px 3px 3px;
+  border-radius: 2px 2px 2px 2px;
+}
+
+h1 {
+  margin-left: 3%;
+  font-weight: 300;
+}
+
+form {
+  background-color: rgba(128, 128, 128, 0.288);
+  color: white;
+  box-shadow: (85, 82, 82, 0.795) 2px 3px 3px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: solid 3px rgba(46, 45, 45, 0.897);
+  font-size: 18px;
+  justify-content: flex-start;
+  margin-top: 5%;
+  display: grid;
+}
+
+.grosseboite {
+  display: flex;
+  gap: 26%;
+  position: relative;
+  left: 85px;
+}
+
+label {
+  font-style: oblique;
+  font-weight: 600;
+  font-size: larger;
+}
+
+#typeProduit {
+  font-size: medium;
+}
+
+input {
+  color: rgb(255, 255, 255);
+  height: 30px;
+  border: solid rgb(0, 0, 0) 1px;
+  font-size: medium;
+  box-shadow: rgba(0, 0, 0, 0.795) 2px 2px 2px 2px;
+  background: rgba(66, 64, 65, 0.521);
+}
+
+::placeholder {
+  color: rgba(187, 179, 179, 0.767);
+}
+
+.confirm {
+  font-weight: 600;
+  width: 10%;
+  
+  height: 35px;
+  color: red;
+}
+
+#texteStock {
+  font-size: larger;
+  margin-left: 4%;
+  display: flex;
+  gap: 4%;
+  margin-top: 5%;
+}
+
+/* STYLE JS */
+
+td,
+th {
+  border: 1px solid rgb(24, 24, 24) !important;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  background-color: rgb(200, 200, 200);
+}
+
+th {
+  background-color: #696969;
+  color: #fff;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(63, 63, 63);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+.divStock {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnClose {
+  color: white;
+  background-color: rgb(69, 69, 69);
+  
+}
